@@ -1,6 +1,6 @@
 package hello.hellospring.controller;
 
-import hello.hellospring.DAO.SampleObjectVo;
+import hello.hellospring.domain.SampleObjectVo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
