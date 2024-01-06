@@ -13,5 +13,4 @@ public interface MemberRepository{
     List<Member> findAll(); //모든 회원 리스트 반환
 
 
-
 }
