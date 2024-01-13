@@ -18,6 +18,7 @@ class MemoryMemberRepositoryTest {
     @AfterEach //아래 각 메서드 하나 끝날 때마다 실행되는 메서드. 콜백함수
     public void afterEach() {
         repository.clearStore(); //store 를 비워준다, 하나의 테스트가 끝날 때마다..
+        
     }
 
     @Test
